@@ -1,0 +1,19 @@
+[package]
+name = "rust-nes-emu"
+version = "0.0.1"
+authors = ["Pablo Magaz <magazpablo@gmail.com>"]
+description = "NES Emulator written in Rust"
+homepage = "https://github.com/pmagaz/rust-nes-emu"
+repository = "https://github.com/pmagaz/rust-nes-emu"
+keywords = ["nes", "emulator", "8bit"]
+categories = ["emulator"]
+edition = "2018"
+readme = "README.md"
+license = "MIT"
+exclude =  ["tests", ".github", ".gitignore", "examples", "benches"]
+
+[[bin]]
+path = "src/main.rs"
+name = "rust-nes-emu"
+
+[dependencies]
